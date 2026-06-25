@@ -7,13 +7,4 @@ seaborn==0.13.2
 matplotlib==3.10.9
 
 
-# pandas
-# numpy
-# seaborn
-# matplotlib
-# scikit-learn
-# # catboost
-# # xgboost
-# dill
-# Flask
-# # -e .
+# -e .
