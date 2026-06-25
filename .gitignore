@@ -232,7 +232,7 @@ __marimo__/
 *.h5
 *.npy
 *.npz
-*.pkl
+# *.pkl
 *.pickle
 
 # Model Training Weights & Checkpoints 
