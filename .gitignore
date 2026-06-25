@@ -1,5 +1,4 @@
-artifacts/
-.artifacts
+# artifacts/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -226,8 +225,8 @@ __marimo__/
 # ==========================================
 
 # Datasets and Heavy Data Folders
-data/
-*.csv
+# data/
+# *.csv
 *.jsonl
 *.parquet
 *.h5
