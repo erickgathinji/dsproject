@@ -1,11 +1,3 @@
-# --- AWS RUNTIME FIX FOR SIMPLEIMPUTER VERSION MISMATCH ---
-from sklearn.impute import SimpleImputer
-if not hasattr(SimpleImputer, '_fill_dtype'):
-    SimpleImputer._fill_dtype = object
-# ---------------------------------------------------------
-
-
-
 from flask import Flask, request, render_template
 from src.pipeline.predict_pipeline import CustomData, PredictPipeline
 import traceback
