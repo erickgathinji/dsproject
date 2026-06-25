@@ -22,7 +22,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info("Entered the data ingestion method or component")
         try:
-            df = pd.read_csv("notebook\data\stud.csv")
+            df = pd.read_csv("notebook/data/stud.csv")
             
             logging.info("Read the dataset as dataframe")
 
